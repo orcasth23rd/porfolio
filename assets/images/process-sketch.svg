@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="psTitle">
+  <title id="psTitle">Placeholder — early sketch</title>
+  <rect width="300" height="300" fill="#fafafa"/>
+  <path d="M50 220 L90 90 L140 200 L180 70 L250 210" fill="none" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="90" cy="90" r="4" fill="#2563eb"/>
+  <circle cx="180" cy="70" r="4" fill="#2563eb"/>
+  <path d="M40 250 h220" stroke="#e4e4e4" stroke-width="2" stroke-dasharray="2 6"/>
+</svg>

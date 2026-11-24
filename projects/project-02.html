@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>RunSync — Marián</title>
+<meta name="description" content="Case study: RunSync — a running app designed for a smartwatch, built to a 60×60mm screen limit and reshaped around user testing." />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="RunSync — Marián" />
+<meta property="og:description" content="Case study: RunSync — a running app designed for a smartwatch, built to a 60×60mm screen limit and reshaped around user testing." />
+<meta property="og:image" content="../assets/images/project-02-cover.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg" />
+<link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container">
+    <a class="logo-mark" href="../index.html#top" aria-label="Home">Marián</a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <a href="../index.html#top">Home</a>
+      <a href="../index.html#work">Projects</a>
+      <a href="../index.html#about">About Me</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.6 4.6l1.7 1.7M17.7 17.7l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.6 19.4l1.7-1.7M17.7 6.3l1.7-1.7"/></svg>
+      </button>
+      <a class="btn btn--ghost" href="../index.html#contact" style="padding:0.6rem 1.25rem;">Contact</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===================== HEADER: title + intro ===================== -->
+  <section class="case-hero">
+    <div class="container">
+      <a class="back-link" href="../index.html#work">← Back to work</a>
+      <h1 class="h1">RunSync</h1>
+      <p class="body-lg">A running app designed for a smartwatch — small enough to read at a glance mid-stride, complete enough to run a whole workout from the wrist. Built solo to a brief that capped the screen at 60×60mm, then reshaped around what five testers actually reached for.</p>
+
+      <dl class="case-facts" data-reveal>
+        <div class="fact"><dt class="caption">Year</dt><dd>2025</dd></div>
+        <div class="fact"><dt class="caption">Category</dt><dd>UI/UX Design · Wearable Design · Running App</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ===================== HERO IMAGE ===================== -->
+  <section class="case-cover" style="padding-top:0; border-top:none;">
+    <div class="container">
+      <!-- 3:2 rather than the site-wide 16:9 — this cover is a designed poster,
+           and cropping it would cut the logo or the bleeding "RUN" lettering. -->
+      <div class="media" data-reveal style="aspect-ratio:3 / 2;">
+        <img src="../assets/images/project-02-cover.jpg" alt="RunSync key visual: three smartwatches showing the music player, the paused-run screen with stop and resume, and the watch face, beside the tagline Run. Track. Improve." />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONCEPT ===================== -->
+  <section>
+    <div class="container">
+      <h2 class="h2" data-reveal>Concept</h2>
+      <div class="case-prose" data-reveal>
+        <p>At 60×60mm every element competes for the same glance. So the wrist is treated as a glanceable surface rather than a small phone: three numbers while you run, everything else one tap deeper. Mid-stride a runner shouldn't have to read the screen — only recognise it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HIGHLIGHTS ===================== -->
+  <section style="border-top:1px solid var(--line);">
+    <div class="container">
+      <h2 class="h2" data-reveal>Highlights of the UX</h2>
+
+      <ol class="case-list" data-reveal>
+        <li><strong>Full control of the run.</strong> Start, pause, resume and stop — each with its own confirmation screen, so a mis-tap on a moving wrist never ends a workout by accident.</li>
+        <li><strong>Real-time stats, and the history behind them.</strong> Live time, heart rate and distance during the run; totals for calories, distance and time broken down by week, month and year.</li>
+        <li><strong>Everything around the run.</strong> Music, weather, a route map, a post-run progress overview, and short confirmation messages as a run starts and ends.</li>
+      </ol>
+
+      <div class="process-strip" style="margin-top:clamp(1.75rem, 4vw, 2.5rem);">
+        <figure data-reveal>
+          <div class="media"><img src="../assets/images/project-02-sketch.jpg" alt="Home menu screen with six icon shortcuts: running mode, schedule, music, map, weather, settings" loading="lazy" decoding="async" /></div>
+          <figcaption class="small-text" style="color:var(--text-secondary);">Home menu — every function one tap away</figcaption>
+        </figure>
+        <figure data-reveal>
+          <div class="media"><img src="../assets/images/project-02-prototype.jpg" alt="The Schedule menu next to the Total Calories screen, which breaks the figure down by week, month and year" loading="lazy" decoding="async" /></div>
+          <figcaption class="small-text" style="color:var(--text-secondary);">Schedule — training history by week, month &amp; year</figcaption>
+        </figure>
+        <figure data-reveal>
+          <div class="media"><img src="../assets/images/project-02-final.jpg" alt="Map, weather and music player screens — the three features added beyond the original brief" loading="lazy" decoding="async" /></div>
+          <figcaption class="small-text" style="color:var(--text-secondary);">Map, weather and music — the extras testing asked for</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESS ===================== -->
+  <section style="border-top:1px solid var(--line);">
+    <div class="container">
+      <h2 class="h2" data-reveal>Process</h2>
+      <div class="case-prose" data-reveal>
+        <p>Five stages, each one narrowing the design a little further — from blocking out screens at true size, to a prototype people could actually run a workout on.</p>
+      </div>
+
+      <ol class="case-list" data-reveal>
+        <li><strong>Wireframes.</strong> Blocking out every screen at true size, to find out how much actually fits in 60×60mm before any styling could hide the problem.</li>
+        <li><strong>Low-fi prototype.</strong> Wiring those wireframes together into a clickable flow, so the run loop could be walked through end to end rather than judged screen by screen.</li>
+        <li><strong>User testing.</strong> Five participants ran through the prototype — where they hesitated, and what they went looking for and couldn't find, set the next round of work.</li>
+        <li><strong>Iterations.</strong> Testing is what put the map, the weather screen, music control and the post-run messages into the app; none of them were in the original brief.</li>
+        <li><strong>High-fi prototype.</strong> The final visual pass — dark UI for outdoor legibility, one accent for actions and one for live data — built as the working prototype below.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===================== OUTCOME ===================== -->
+  <section style="border-top:1px solid var(--line);">
+    <div class="container">
+      <h2 class="h2" data-reveal>Outcome</h2>
+      <div class="case-prose" data-reveal>
+        <p>The brief asked for a running mode, pause and resume, and a training history. What testing turned it into was a small system you can live in for the length of a run — and the features people asked for unprompted were the ones that made it feel finished.</p>
+      </div>
+
+      <!-- The real Figma prototype, click-to-load: the still below is swapped for
+           the embed on click, so Figma's player is only fetched by people who
+           actually want to try it. Requires the Figma file's link sharing to be
+           set to "Anyone with the link — can view". -->
+      <div class="proto-embed" data-reveal style="margin-top:clamp(1.75rem, 4vw, 2.5rem);">
+        <button class="proto-launch" type="button"
+                data-proto-src="https://embed.figma.com/proto/zoJlEl7CMAgvqC59AaGzTM/Running-App?node-id=2-2&amp;starting-point-node-id=2-2&amp;scaling=contain&amp;embed-host=marian-portfolio">
+          <img src="../assets/images/project-02-sketch.jpg" alt="" loading="lazy" decoding="async" />
+          <span class="proto-play">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            Launch the prototype
+          </span>
+        </button>
+      </div>
+
+      <p class="small-text" data-reveal style="color:var(--text-secondary); text-align:center; margin-top:0.9rem;">
+        Start on the watch face and tap through — the menu, schedule, map, weather and the full run loop are all wired up.
+        <a href="https://www.figma.com/proto/zoJlEl7CMAgvqC59AaGzTM/Running-App?node-id=2-2&amp;starting-point-node-id=2-2" target="_blank" rel="noopener" style="color:var(--accent); font-weight:600;">Open in Figma ↗</a>
+      </p>
+
+      <noscript>
+        <p class="small-text" style="text-align:center; margin-top:0.9rem;">
+          <a href="https://www.figma.com/proto/zoJlEl7CMAgvqC59AaGzTM/Running-App?node-id=2-2&amp;starting-point-node-id=2-2" target="_blank" rel="noopener">Open the interactive prototype in Figma ↗</a>
+        </p>
+      </noscript>
+    </div>
+  </section>
+
+  <section class="case-cta" style="border-top:1px solid var(--line);">
+    <div class="container">
+      <p class="h1">Like what you see?</p>
+      <a class="btn btn--accent" href="../index.html#work">← Back to all work</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>© <span id="year"></span> Marián</span>
+    <a href="../index.html#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

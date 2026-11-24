@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>[Project 3 name] — Marián</title>
+<meta name="description" content="Case study: [Project 3 name] — replace with a one-line summary." />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="[Project 3 name] — Marián" />
+<meta property="og:description" content="Case study: [Project 3 name] — replace with a one-line summary." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="robots" content="noindex" />
+<link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg" />
+<link rel="stylesheet" href="../css/style.css" />
+
+<!-- EDIT ME — replace bracketed placeholders with your real case study content. -->
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container">
+    <a class="logo-mark" href="../index.html#top" aria-label="Home">Marián</a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <a href="../index.html#top">Home</a>
+      <a href="../index.html#work">Projects</a>
+      <a href="../index.html#about">About Me</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.6 4.6l1.7 1.7M17.7 17.7l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.6 19.4l1.7-1.7M17.7 6.3l1.7-1.7"/></svg>
+      </button>
+      <a class="btn btn--ghost" href="../index.html#contact" style="padding:0.6rem 1.25rem;">Contact</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="case-hero">
+    <div class="container">
+      <a class="back-link" href="../index.html#work">← Back to work</a>
+      <h1 class="h1">[Project 3 name]</h1>
+      <p class="body-lg">[One sentence: what the project was and the problem it solved.]</p>
+      <div class="case-hero-tags">
+        <span class="tag">Branding</span>
+        <span class="tag">Prototype</span>
+        <span class="tag">[Duration, e.g. 6 weeks]</span>
+      </div>
+
+      <dl class="case-facts" data-reveal>
+        <div class="fact"><dt class="caption">Role</dt><dd>[Your role, e.g. Solo UX designer]</dd></div>
+        <div class="fact"><dt class="caption">Tools</dt><dd>[Figma, ...]</dd></div>
+        <div class="fact"><dt class="caption">Team</dt><dd>[Solo / 3-person team / ...]</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="case-cover" style="padding-top:0; border-top:none;">
+    <div class="container">
+      <div class="media" data-reveal>
+        <img src="../assets/images/project-03.svg" alt="[Project 3 name] — cover screen" />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container case-grid">
+      <div data-reveal>
+        <p class="caption">The problem</p>
+        <p>[Name the actual problem — not just "I was asked to redesign X." What wasn't working, for whom?]</p>
+      </div>
+      <div data-reveal>
+        <p class="caption">Key decisions</p>
+        <p>[1-2 specific choices you made and why — written as "I", not "we." Specific beats generic process talk.]</p>
+      </div>
+      <div data-reveal>
+        <p class="caption">The outcome</p>
+        <p>[What changed as a result — a number if you have one, or specific feedback you received.]</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="border-top:1px solid var(--line);">
+    <div class="container">
+      <p class="caption" data-reveal style="margin-bottom:1.25rem;">Process</p>
+      <div class="process-strip">
+        <figure data-reveal>
+          <div class="media"><img src="../assets/images/process-sketch.svg" alt="Early sketch — replace with your own" loading="lazy" decoding="async" /></div>
+          <figcaption class="small-text" style="color:var(--text-secondary);">[Early sketch]</figcaption>
+        </figure>
+        <figure data-reveal>
+          <div class="media"><img src="../assets/images/process-wireframe.svg" alt="Wireframe — replace with your own" loading="lazy" decoding="async" /></div>
+          <figcaption class="small-text" style="color:var(--text-secondary);">[Wireframe]</figcaption>
+        </figure>
+        <figure data-reveal>
+          <div class="media"><img src="../assets/images/process-final.svg" alt="Final screen — replace with your own" loading="lazy" decoding="async" /></div>
+          <figcaption class="small-text" style="color:var(--text-secondary);">[Final]</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-reflection">
+    <div class="container">
+      <p class="caption" data-reveal>What I'd do differently</p>
+      <p data-reveal>[One honest sentence — reviewers read a quick reflection as a sign of real thinking, not a weakness.]</p>
+    </div>
+  </section>
+
+  <section class="case-cta" style="border-top:1px solid var(--line);">
+    <div class="container">
+      <p class="h1">Like what you see?</p>
+      <a class="btn btn--accent" href="../index.html#work">← Back to all work</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>© <span id="year"></span> Marián</span>
+    <a href="../index.html#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

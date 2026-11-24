@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="pwTitle">
+  <title id="pwTitle">Placeholder — wireframe</title>
+  <rect width="300" height="300" fill="#fafafa"/>
+  <rect x="40" y="40" width="220" height="220" fill="#ffffff" stroke="#e4e4e4" stroke-width="2"/>
+  <rect x="56" y="56" width="120" height="14" rx="3" fill="#121212"/>
+  <rect x="56" y="84" width="188" height="8" rx="2" fill="#ababab"/>
+  <rect x="56" y="100" width="150" height="8" rx="2" fill="#ababab"/>
+  <rect x="56" y="130" width="90" height="90" fill="#e4e4e4"/>
+  <rect x="156" y="130" width="88" height="42" fill="#e4e4e4"/>
+  <rect x="156" y="178" width="88" height="42" fill="#2563eb"/>
+</svg>
